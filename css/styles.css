@@ -1,0 +1,79 @@
+
+html{
+  font-family: verdana, sans-serif;
+}
+
+
+
+header{
+  background-color: #000033;
+  color: #FFFFFF;
+  padding: 2em;
+}
+
+header h1{
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-size: 4em;
+}
+
+#main{
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('../images/Corkboard-background.gif');
+}
+
+#professional{
+  float: left;
+  width: 40%;
+  padding: 2em;
+}
+
+#professional ul{
+  background-color: #FFFFFF;
+  width: 75%;
+}
+
+#professional li {
+  padding: .5em 0 0 .2em;
+  border-bottom: 1px solid #0000FF;
+}
+
+#professional h2{
+  text-align: center;
+  color: #4E2E28;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding-bottom: .75em;
+}
+
+#personal{
+  float: right;
+  width: 40%;
+  padding: 2em;
+}
+
+#personal ul{
+  background-color: #FFFFFF;
+  width: 75%;
+}
+
+#personal li{
+  padding: .5em 0 0 .2em;
+  border-bottom: 1px solid #0000FF;
+}
+
+#personal h2{
+  text-align: center;
+  color: #4E2E28;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding-bottom: .75em;
+}
+
+footer{
+  padding: 1em;
+  background-color: #000033;
+  color: #FFFFFF;
+  clear: both;
+}
