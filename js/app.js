@@ -1,10 +1,11 @@
-
-var key = "72331513076e6a444f506c43167c69";
-var urlName = "ny-tech";
-
-
-var result = $.getJSON("http://api.meetup.com/2/events?key=" + key +"&group_urlname="+urlName+"&sign=true", function(data){
-  return data;
+$.getJSON("http://api.meetup.com/2/open_events.json?zip=10001&radius=7&topic=technology&status=upcoming&time=,1w&key=2a4357102314d741b5a75331115722f&callback=?", function (data) { 
+  appendData(data);
 });
 
-console.log(result);
+////functions///////
+var appendData = function(returnedData){
+  $.each( returnedData.results, function( key, value ) {
+  $('#professional').append(  value.description );
+});
+}
+
