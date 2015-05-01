@@ -29,16 +29,6 @@ header h1{
   padding: 2em;
 }
 
-#professional ul{
-  background-color: #FFFFFF;
-  width: 75%;
-}
-
-#professional li {
-  padding: .5em 0 0 .2em;
-  border-bottom: 1px solid #0000FF;
-}
-
 #professional h2{
   text-align: center;
   color: #4E2E28;
@@ -47,23 +37,30 @@ header h1{
   padding-bottom: .75em;
 }
 
-#personal{
+#professional li {
+  margin: .8em 0 0 0;
+  width: 80%;
+}
+
+#details{
   float: right;
   width: 40%;
   padding: 2em;
 }
 
-#personal ul{
-  background-color: #FFFFFF;
-  width: 75%;
+#categories li{
+  display: inline-block;
+  width: 18%;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0 .5em 0 0;
+  padding: .5em;
+  border: 2px solid #FFFFFF;
+
 }
 
-#personal li{
-  padding: .5em 0 0 .2em;
-  border-bottom: 1px solid #0000FF;
-}
 
-#personal h2{
+#details h2{
   text-align: center;
   color: #4E2E28;
   font-size: 2em;
@@ -76,4 +73,34 @@ footer{
   background-color: #000033;
   color: #FFFFFF;
   clear: both;
+}
+
+.date-block {
+  display: inline-block;
+  color:white;
+  width: 6em;
+  height: 6em;
+  padding:.5em;
+  margin: 0 .5em 0 0;
+  text-align: center;
+  background-color: #FF0000;
+  vertical-align: middle;
+}
+
+.info-block {
+  display: inline-block;
+  height: 6em;
+  width: 15em;
+  padding:.5em;
+  text-align: center;
+  background-color: #FFFFFF;
+  vertical-align: middle;
+}
+
+.month {
+  font-size: 2em;
+}
+
+.date {
+  font-size: 4em;
 }
